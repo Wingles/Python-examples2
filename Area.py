@@ -1,9 +1,9 @@
 #CALCULATIN TRIANGLE AREA
 
 # accepting values for the three sides of a triangle from the user
-a = float(input('Enter first side  : '))  
-b = float(input('Enter second side  : '))  
-c = float(input('Enter third side  : '))  
+a = int(input('Enter first side  : '))  
+b = int(input('Enter second side  : '))  
+c = int(input('Enter third side  : '))  
   
 # calculate the semi-perimeter  
 s = (a + b + c) / 2  
